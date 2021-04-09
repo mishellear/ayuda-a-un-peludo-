@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+*{
+    padding: 0%; /* relleno */
+    margin: 0%; /* margen */
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #bdbdbd ;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+header{
+    background-image: url("../img/imagen2.jfif");
+    background-repeat: repeat;/* para repetor imagen*/
+    width: 100%;/*ancho*/
+    height: 200px;/*alto*/
+    padding-top: 50px;
+    border-bottom: 5px #333 dotted;
+    
+} 
+H1,H2{
+    color: #212121;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'New Tegomin', serif;
+    font-size: 3em;
+}
+
+h2{
+    text-decoration: underline;
+}
+P{
+    text-align: justify;
+    padding: 10px 20px 0px 20px;
+}
+
+.destacado{
+    background-color: #ff0;
+    font-weight: bold;
+}
+
+nav{
+    width: 300px;
+    margin: 0 auto;
+}
+/*para para quitar los puntos de el menu*/
+ul{
+    list-style-type: none;
+    background-color: #fcbdbd;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+
+li a{
+    text-align: center;
+    display: block;
+    height: 30px;
+    width: 100px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+li a:hover{
+    border-bottom: 1px #000 solid;
+    background-color: #ff6d6f;
+    color: #fff;
+}
+
+#uno, #dos, #tres{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    float: left;
+}
+
+#uno{ background-color: #ff4081;}
+#dos{ background-color: #616161;}
+#tres{background-color: #ffffff;}
