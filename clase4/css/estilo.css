@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 
-*{
+*{/*para recetar lo que el navegador es predeterminado*/
     padding: 0%; /* relleno */
     margin: 0%; /* margen */
     box-sizing: border-box;
