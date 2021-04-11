@@ -78,9 +78,23 @@ li a:hover{
     width: 100px;
     height: 100px;
     border: 1px solid #000;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+#uno{ 
+    background-color: #ff4081;
     float: left;
 }
 
-#uno{ background-color: #ff4081;}
-#dos{ background-color: #616161;}
-#tres{background-color: #ffffff;}
+#dos{
+    background-color: #616161;
+    float: left;
+}
+
+#tres{
+    clear: both;
+    background-color: #ffffff;
+
+
+}
